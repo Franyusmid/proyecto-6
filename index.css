@@ -1,0 +1,231 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation{
+    display: flex;
+}
+
+
+#photo-work {
+    
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+
+  }
+    
+#skills{
+
+    text-align: center;
+
+
+}
+
+p {
+    align-items: center;
+    color: #555;
+   
+}
+
+#skills{
+
+    text-align: center;
+
+
+}
+
+
+#tech-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.tech-logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+    
+}
+
+.tech-logo:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.7);
+
+}
+
+.tech-logo.HTML{
+    background-image: url('/imagenes/icons8-html-5.svg');
+    
+}
+
+.tech-logo.HTML a{
+    display: block;
+    text-indent: -9999px;
+}
+
+
+.tech-logo.css {
+    background-image: url('/imagenes/icons8-css3.svg');
+}
+
+
+.tech-logo.javascript {
+    background-image: url('/imagenes/icons8-javascript.svg');
+}
+
+.tech-logo.node {
+    background-image: url('/imagenes/icons8-nodo-js.svg');
+}
+
+.tech-logo.github {
+    background-image: url('/imagenes/icons8-github.svg');
+}
+
+.tech-logo.stripe {
+    background-image: url('/imagenes/stripe-circle-round-blue-logo-19777.svg');
+}
+
+.tech-logo.swagger {
+    background-image: url('/imagenes/file_type_swagger_icon_130134.svg');
+}
+
+.tech-logo.tailwind {
+    background-image: url('/imagenes/tailwindcss.svg');
+  
+    
+}
+
+
+.tech-logo.React {
+    background-image: url('/imagenes/icons8-reaccionar.svg');
+
+    
+}
+
+
+.tech-logo.Git {
+    background-image: url('/imagenes/icons8-git.svg');
+
+    
+}
+
+.tech-logo.Gitkraken {
+    background-image: url('/imagenes/gitkraken.svg');
+   
+}
+
+
+h1,h2,h3 {
+    color: #333;
+}
+
+/* Contenedor principal */
+body {
+    max-width:full;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db; /* Azul claro */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ol {
+    list-style: none;
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}
