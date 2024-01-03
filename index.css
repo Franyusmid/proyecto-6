@@ -4,18 +4,33 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f8f8f8;
-    color: #333;
+   
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #3498db; /* Azul claro */
+    padding: 15px;
     text-align: center;
+}
+h1 {
+    font-size: 60px;
+    margin: 15px 0 15px 0;
+    
+}
+h1,h2,h3 {
+    color: #333;
 }
 
 nav {
     margin-top: 20px;
+    font-size: 30px;
+
+}
+
+
+nav a {
+    color: #fff;   
+     
 }
 
 .link {
@@ -42,33 +57,26 @@ main {
 
 
 #photo-work {
-    
-    border-radius: 8px;
+    margin-right: 25px;
     margin-top: 20px;
-    padding-right: 20px;
-    position: relative;
-    width: 250px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-
+    border-radius: 10%;
+    width: 40%;
+    aspect-ratio: 1333/691;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.7);
+   
   }
     
-#skills{
-
-    text-align: center;
-
-
-}
-
 p {
     align-items: center;
     color: #555;
+    font-size: 25px;
+    line-height: 2.5rem;
+    width: 60%;
    
 }
 
-#skills{
-
+#skills,#Projects,#certifications{
+    font-size: 30px;
     text-align: center;
 
 
@@ -82,8 +90,8 @@ p {
 }
 
 .tech-logo {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     margin-right: 10px;
     background-size: cover;
     background-position: center;
@@ -158,58 +166,6 @@ p {
     background-image: url('/imagenes/gitkraken.svg');
    
 }
-
-
-h1,h2,h3 {
-    color: #333;
-}
-
-/* Contenedor principal */
-body {
-    max-width:full;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #3498db; /* Azul claro */
-    padding: 20px 0;
-    text-align: center;
-    color: #fff;
-}
-
-nav {
-    margin-top: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-main {
-    padding: 20px;
-}
-
-p {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-h2 {
-    margin-top: 20px;
-    color: #333;
-}
-
-ol {
-    list-style: none;
-    margin-left: 20px;
-}
-
-ol li {
-    margin-bottom: 10px;
-}
-
 
 
 
